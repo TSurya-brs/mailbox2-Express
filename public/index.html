@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Mailbox App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mail Box</h1>
+    <div class="mailbox-controls">
+      <button id="inboxBtn">Inbox</button>
+      <button id="archivedBtn">Archived</button>
+    </div>
+    <br/>
+    <div class="mailbox-controls">
+      <button id="markAsReadBtn">Mark as Read</button>
+      <button id="markAsUnreadBtn">Mark as Unread</button>
+      <button id="moveToArchiveBtn">Move to Archive</button>
+      <button id="moveToInboxBtn">Move to Inbox</button>
+
+    </div>
+    <table id="mailboxTable">
+      <thead>
+        <tr>
+          <th>Select</th>
+          <th>Sender</th>
+          <th>Subject</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Mail items will be injected here by JavaScript -->
+      </tbody>
+    </table>
+
+    <!-- Email Content Section (will show below the table) -->
+    <div id="emailContent" class="mail-content">
+      <h3>Email Content</h3>
+      <div id="emailDetails">
+        <!-- Email content will be injected here -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

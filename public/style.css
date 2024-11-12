@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f3f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4a4a4a;
+  }
+  
+  .mailbox-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005a8d;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f1f1f1;
+  }
+  
+  .read {
+    font-weight: normal;
+    background-color: #f0f0f0;
+  }
+  
+  .unread {
+    font-weight: bold;
+  }
+  
+  .mail-content {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    display: none; /* Initially hidden */
+  }
+  
+  .mail-content h3 {
+    margin-top: 0;
+  }
+  
+  #emailDetails {
+    margin-top: 20px;
+  }
+  
+  #emailDetails p {
+    line-height: 1.6;
+  }
+  
